@@ -23,3 +23,10 @@ console.log("Sub:", subtract(5, 2));
 console.log("Mul:", multiply(3, 4));
 console.log("Div:", divide(10, 2));
 
+module.exports = {
+  add,
+  subtract,
+  multiply,
+  divide,
+};
+
