@@ -1,0 +1,9 @@
+git bisect start
+# status: waiting for both good and bad commits
+# bad: [525566addcb10dbffd30c708e4a4ccf9e8dc60ae] docs: add file-level documentation
+git bisect bad 525566addcb10dbffd30c708e4a4ccf9e8dc60ae
+# status: waiting for good commit(s), bad commit known
+# good: [3187ca4c97a19ced9525b9ffb79a36ded31097ca] feat: add multiply function
+git bisect good 3187ca4c97a19ced9525b9ffb79a36ded31097ca
+# bad: [6cf746bb3e01bc6f3218f6e1a9d97c7402ec4e0f] test: add basic operation logs
+git bisect bad 6cf746bb3e01bc6f3218f6e1a9d97c7402ec4e0f
