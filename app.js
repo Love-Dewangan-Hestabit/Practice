@@ -1,5 +1,7 @@
 // app.js
 console.log("Change from Test-2");
+console.log("Change from Test-1");
+
 
 //Simple Arithmetic Operations
 function add(a, b) {
