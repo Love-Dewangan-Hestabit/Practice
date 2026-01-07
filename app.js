@@ -11,7 +11,7 @@ function subtract(a, b) {
 }
 
 function multiply(a, b) {
-  return a + b; // BUG (intentional)
+  return a * b;
 }
 
 function divide(a, b) {
