@@ -1,6 +1,7 @@
 // app.js
 console.log("App started");
 
+//Simple Arithmetic Operations
 function add(a, b) {
   return a + b;
 }
