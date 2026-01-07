@@ -19,6 +19,7 @@ function divide(a, b) {
   return a / b;
 }
 
+//Console Logs
 console.log("Add:", add(2, 3));
 console.log("Sub:", subtract(5, 2));
 console.log("Mul:", multiply(3, 4));
